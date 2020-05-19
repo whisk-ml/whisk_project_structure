@@ -3,7 +3,7 @@
 -e .
 
 # Adds the whisk cli, directory helpers, etc.
-whisk==0.1.29
+https://github.com/whisk-ml/whisk/archive/logging-create-output.zip
 
 ### whisk project requirements
 ipykernel # creating the `demo` kernel
