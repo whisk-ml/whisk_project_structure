@@ -17,7 +17,7 @@ setup(
     # You can test that the package works and contains needed dependencies by running `tox` from the
     # command line. tox tests the package in an isoloated venv.
     install_requires=[
-        'whisk==0.1.29'
+        'whisk==0.1.30'
     ],
     entry_points={
         'console_scripts': [
