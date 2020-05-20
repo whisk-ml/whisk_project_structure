@@ -47,4 +47,4 @@ workflows:
   main:
     jobs:
       - test:
-          whisk_package: "whisk==0.1.30"
+          whisk_package: "https://github.com/whisk-ml/whisk/archive/dir-under-module-name.zip"

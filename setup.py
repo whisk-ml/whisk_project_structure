@@ -14,7 +14,7 @@ setup(
     #
     # See https://whisk.readthedocs.io/en/latest/packaging.html for help on packaging your model.
     install_requires=[
-        'whisk==0.1.30'
+        'whisk @ https://github.com/whisk-ml/whisk/archive/dir-under-module-name.zip'
     ],
     entry_points={
         'console_scripts': [

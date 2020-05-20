@@ -16,7 +16,9 @@ install_requires=[
 
 ## .circleci/config.yml:
 
-pip install -U https://github.com/whisk-ml/whisk/archive/whisk-branch.zip
+Update whisk_package:
+
+https://github.com/whisk-ml/whisk/archive/whisk-branch.zip
 
 ## run tox with re-created env
 
@@ -48,3 +50,10 @@ From local whisk source:
 
 rm ~/Desktop/whisk.log
 whisk --log-file ~/Desktop/whisk.log create --force -o ~/projects/whisk_examples/ whisk_project_structure
+whisk notebook run notebooks/getting_started.ipynb
+pytest
+tox
+
+Then update w/git branch urls:
+
+https://github.com/whisk-ml/whisk/archive/dir-under-module-name.zip

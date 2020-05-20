@@ -3,7 +3,7 @@
 -e .
 
 # Adds the whisk cli, directory helpers, etc.
-whisk==0.1.30
+https://github.com/whisk-ml/whisk/archive/dir-under-module-name.zip
 
 ### whisk project requirements
 ipykernel # creating the `whisk_project_structure` kernel
