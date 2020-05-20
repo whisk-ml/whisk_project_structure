@@ -1,6 +1,6 @@
 import click
 import json
-from demo.models.model import Model
+from whisk_project_structure.models.model import Model
 
 @click.group()
 def cli():
@@ -11,7 +11,7 @@ def cli():
 def predict(x):
     """
     Generate a model prediction.
-    Example usage: demo predict [[1,2],[3,4]]
+    Example usage: whisk_project_structure predict [[1,2],[3,4]]
     """
     model = Model()
     x_parsed = json.loads(x)

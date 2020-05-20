@@ -1,2 +1,2 @@
 include requirements.txt
-graft src/demo/artifacts/
+graft src/whisk_project_structure/artifacts/

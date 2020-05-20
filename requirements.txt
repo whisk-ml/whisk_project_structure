@@ -1,12 +1,13 @@
-# Installs demo as a local package. This makes it accessible
-# via `import demo` in Python.
+# Installs whisk_project_structure as a local package. This makes it accessible
+# via `import whisk_project_structure` in Python.
 -e .
 
 # Adds the whisk cli, directory helpers, etc.
 whisk==0.1.30
 
 ### whisk project requirements
-ipykernel # creating the `demo` kernel
+ipykernel # creating the `whisk_project_structure` kernel
+nbconvert # run notebooks from the command line
 python-dotenv # access env vars defined in a .env file from Python code
 dvc # Data Version Control (DVC) for versioning data and pipelines
 boto3 # AWS API for S3 bucket management needed for DVC remotes

@@ -3,7 +3,7 @@ import pytest
 
 # https://click.palletsprojects.com/en/7.x/testing/
 from click.testing import CliRunner
-from demo.cli.main import cli
+from whisk_project_structure.cli.main import cli
 
 def test_cli():
     """Test the CLI."""

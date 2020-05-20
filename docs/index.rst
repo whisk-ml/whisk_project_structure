@@ -1,9 +1,9 @@
-.. demo documentation master file, created by
+.. whisk_project_structure documentation master file, created by
    sphinx-quickstart.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-demo documentation!
+whisk_project_structure documentation!
 ==============================================
 
 Contents:

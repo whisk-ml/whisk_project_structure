@@ -1,6 +1,6 @@
 import flask
 import whisk.dvc as dvc
-from demo.models.model import Model
+from whisk_project_structure.models.model import Model
 import sys
 import os
 
